@@ -43,7 +43,7 @@ function setTime(){
 
     timeElement.innerHTML = `${hoursForClock}:${minutes < 10 ? `0${minutes}` : minutes} ${ampm}`;
 
-    dateElement.innerHTML = `${days[day]}, ${months[month]} <span class="circle">${date}</>`;
+    dateElement.innerHTML = `${days[day]}, ${months[month]} <span class="circle">${date}</span>`;
 }
 
 
